@@ -1,4 +1,4 @@
-public class OOPS {
+public class OOPS1 {
     public static void main(String args[]) {
         Student s1 = new Student();
         // Student s2 = new Student("diya");
@@ -12,7 +12,7 @@ public class OOPS {
 
         Student s2 = new Student(s1); //copied s1 values in s2
         s2.password = "xyz";
-
+        s1.marks[2] = 100;
         for(int i=0; i<3; i++) {
             System.out.println(s2.marks[i]);
         }
@@ -25,13 +25,16 @@ class Student {
     String password;
     int marks[];
     
-    //copy constructor
-    Student(Student s1) {
+    //shallow copy constructor
+    /* Student(Student s1) {
         marks = new int[3];
         this.name = s1.name;
         this.roll = s1.roll;
         this.marks = s1.marks;
-    }
+    } */
+
+    //deep copy constructor
+    
 
     Student() {
         marks = new int[3];
