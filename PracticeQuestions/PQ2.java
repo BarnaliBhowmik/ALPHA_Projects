@@ -20,3 +20,5 @@ public class PQ2 {
         System.out.println(s.schoolName);
     }
 }
+
+// private & protected modifier's are not allowed in front of the class as they make the class unusable.
