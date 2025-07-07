@@ -6,6 +6,7 @@ public class PQ1 {
     public static void main(String[] args) {
         Student st = new Student();
         st.name = "rena"; //Dot operator
+        System.out.println(st.name);
     }
 }
 
