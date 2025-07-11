@@ -12,6 +12,6 @@ public class PQ5 {
         System.out.println(Book.count + " ");
         Book b1 = new Book(150);
         Book b2 = new Book(250);
-        System.out.println(Book.count);
+        System.out.println(Book.count+"");
     }
 }
